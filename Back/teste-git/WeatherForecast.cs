@@ -9,5 +9,9 @@ namespace teste_git
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
         public string? Summary { get; set; }
+
+        public string ? Enabled { get; set; }
+        public int ? EnabledTemperature { get; set; } = 0;
+        public bool Teste { get; set; }
     }
 }
